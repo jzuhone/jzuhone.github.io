@@ -2760,6 +2760,48 @@ section.lazy-placeholder:after {
 .cid-rRxeJ14IGK blockquote {
   color: #767676;
 }
+.cid-rRxtkX2UZ1 {
+  background: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cid-rRxtkX2UZ1 .image-block {
+  margin: auto;
+}
+.cid-rRxtkX2UZ1 figcaption {
+  position: relative;
+}
+.cid-rRxtkX2UZ1 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rRxtkX2UZ1 .image-block {
+    width: 100% !important;
+  }
+}
+.cid-rRxuaumw2L {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rRxuaumw2L .mbr-text,
+.cid-rRxuaumw2L blockquote {
+  color: #767676;
+}
+.cid-rRxuaumw2L .mbr-text {
+  text-align: center;
+}
+.cid-rRxu8uYRaa {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rRxu8uYRaa .mbr-text,
+.cid-rRxu8uYRaa blockquote {
+  color: #767676;
+}
 .cid-rRxctISKee {
   padding-top: 0px;
   padding-bottom: 0px;
