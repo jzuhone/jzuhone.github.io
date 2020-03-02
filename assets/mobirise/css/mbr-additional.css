@@ -1563,6 +1563,46 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-rS5BgMlCmO {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rS5BgMlCmO .card-img {
+  background-color: #fff;
+}
+.cid-rS5BgMlCmO .card-box {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.cid-rS5BgMlCmO h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rS5BgMlCmO p {
+  text-align: left;
+}
+.cid-rS5BgMlCmO .mbr-text {
+  color: #767676;
+}
+.cid-rS5BgMlCmO .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rS5BgMlCmO .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-rS5BgMlCmO .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
+}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #333333;
