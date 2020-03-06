@@ -38,7 +38,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 31,
+    "uniqCompNum": 33,
     "versionPublish": "4.12.2",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -2542,7 +2542,8 @@
               "color": "#767676"
             },
             ".mbr-text": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#232323"
             }
           },
           "_name": "content1",
@@ -2560,51 +2561,21 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            "& when (@reverseContent)": {
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-left": "4rem"
-                }
-              },
-              "@media (max-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-top": "1rem"
-                }
-              }
-            },
-            "& when not (@reverseContent)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse"
-              },
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-right": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".media-container-row": {
-                  "flex-wrap": "wrap-reverse",
-                  "-webkit-flex-wrap": "wrap-reverse"
-                },
-                ".mbr-figure": {
-                  "padding-bottom": "1rem"
-                }
-              }
+            ".mbr-text, blockquote": {
+              "color": "#767676"
             },
             ".mbr-text": {
-              "color": "#767676",
-              "text-align": "left"
+              "color": "#232323"
             }
           },
-          "_name": "content7",
-          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">However, most cold fronts are observed to be very smooth and sharp, so there must be a mechanism to support the existence of these features. One possible mechanism is magnetic fields. The velocity shear associated with a cold front can amplify the weak cluster magnetic fields to near-equipartition strengths, and stretch the field lines tangential to the front surface (Figure 1b). Due to the small Larmor radii of elect rons in the μG cluster magnetic field, heat conduction is strongly anisotropic, occurring essentially only along the field lines. Therefore, a magnetic field stretched parallel to the front surface would shield the temperature gradient from heat conduction. In <a href=\"http://adsabs.harvard.edu/abs/2011ApJ...743...16Z\" target=\"_blank\">ZuHone et al 2011</a> we performed a series of simulations of sloshing cold front formation in a magnetized ICM. We varied the overall magnetic field strength of the cluster and the degree to which it is tangled on small scales. We found that for initial magnetic field energies ~1% of the thermal energy, the field is stretched and amplified to such a degree that most cold fronts can be stabilized against the development of fluid instabilities (Figure 2). Large-radii cold fronts, where the field is weaker, are more susceptible to the development of instabilities.</p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"../_images/background1.jpg\" alt=\"Mobirise\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rSjTOD1Rz2",
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">However, most cold fronts are observed to be very smooth and sharp, so there must be a mechanism to support the existence of these features. One possible mechanism is magnetic fields. The velocity shear associated with a cold front can amplify the weak cluster magnetic fields to near-equipartition strengths, and stretch the field lines tangential to the front surface (Figure 1, right panel). Due to the small Larmor radii of elect rons in the μG cluster magnetic field, heat conduction is strongly anisotropic, occurring essentially only along the field lines. Therefore, a magnetic field stretched parallel to the front surface would shield the temperature gradient from heat conduction. In <a href=\"http://adsabs.harvard.edu/abs/2011ApJ...743...16Z\" target=\"_blank\">ZuHone et al 2011</a> we performed a series of simulations of sloshing cold front formation in a magnetized ICM. We varied the overall magnetic field strength of the cluster and the degree to which it is tangled on small scales. We found that for initial magnetic field energies ~1% of the thermal energy, the field is stretched and amplified to such a degree that most cold fronts can be stabilized against the development of fluid instabilities (Figure 2). Large-radii cold fronts, where the field is weaker, are more susceptible to the development of instabilities.</div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSqrlPK6DW",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content7-r"
+          "_anchor": "content1-v"
         },
         {
           "alias": false,
@@ -2630,13 +2601,36 @@
             }
           },
           "_name": "video3",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://vimeo.com/160771386?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://vimeo.com/160771386?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rSqq0cVlXn",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "video3-u"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "text-align": "center",
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Figure 1: Simulation of core gas sloshing. Left: Slice of gas temperature. Right: Slice of magnetic field strength.</div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSqsKltMwA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-w"
         }
       ]
     },
