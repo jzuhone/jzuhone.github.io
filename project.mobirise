@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "John ZuHone",
-    "currentPage": "icm_transport.html",
+    "currentPage": "chandra.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1941,6 +1941,9 @@
             "background-color": "@bgColor",
             ".mbr-text, blockquote": {
               "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
             }
           },
           "_name": "content1",
@@ -2002,7 +2005,8 @@
               "color": "#767676"
             },
             ".mbr-text": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#232323"
             }
           },
           "_name": "content1",
@@ -2022,6 +2026,9 @@
             "background-color": "@bgColor",
             ".mbr-text, blockquote": {
               "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
             }
           },
           "_name": "content1",
@@ -2081,6 +2088,9 @@
             },
             ".mbr-text UL": {
               "text-align": "left"
+            },
+            ".mbr-text": {
+              "color": "#232323"
             }
           },
           "_name": "content12",
