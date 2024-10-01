@@ -5,6 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - jzuhone/pyxsim
+  - yt-project/yt
   - lynx-x-ray-observatory/soxs
   - acisops/acis_thermal_check
-  
+  - acisops/acispy
