@@ -27,21 +27,47 @@
       "name": "Center for Astrophysics | Harvard & Smithsonian",
       "position": "Astrophysicist",
       "url": "https://jzuhone.github.io/",
-      "startDate": "December 2015",
+      "startDate": "2015-12",
       "endDate": "Present",
-      "summary": "I am ",
-      "highlights": ["Relativity"]
+      "summary": "Chandra ACIS Operations Team and Research in Astrophysics",
+      "highlights": [
+        "Chandra Operations", 
+        "Intracluster Medium", 
+        "Circumgalactic Medium", 
+        "Lynx Study Office", 
+        "Line Emission Mapper Team", 
+        "Synthetic X-ray Observations", 
+        "Scientific Software Development"
+      ]
     }
   ],
   "education": [
     {
       "institution": "University of Chicago",
       "location": "Chicago, Illinois, USA",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.uchicago.edu/",
       "area": "Astronomy & Astrophysics",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01"
+      "studyType": "Ph.D.",
+      "startDate": "2004-12",
+      "endDate": "2009-03"
+    },
+    {
+      "institution": "University of Chicago",
+      "location": "Chicago, Illinois, USA",
+      "url": "https://www.uchicago.edu/",
+      "area": "Astronomy & Astrophysics",
+      "studyType": "M.Sc.",
+      "startDate": "2002-09",
+      "endDate": "2004-12"
+    },
+    {
+      "institution": "University of Illinois at Urbana-Champaign",
+      "location": "Urbana, Illinois, USA",
+      "url": "https://illinois.edu/",
+      "area": "Physics",
+      "studyType": "B.Sc.",
+      "startDate": "1998-08",
+      "endDate": "2002-05"
     }
   ],
   "publications": [
