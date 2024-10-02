@@ -239,6 +239,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
+  - _pages/dropdown.md
   - LICENSE
   - lighthouse_results/
   - package.json
