@@ -95,18 +95,35 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Astrophysics",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Magnetohydrodynamics",
+        "Galaxy Clusters",
+        "Intracluster Medium",
+        "X-ray Astronomy",
+        "Dark Matter"
+      ]
+    },
+    {
+      "name": "Scientific Computing",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Numerical Simulations",
+        "Simulation Analysis",
+        "Visualization",
+        "Python",
+        "C",
+        "C++",
+        "Fortran",
+        "Git",
+        "HDF5",
+        "MPI",
+        "FITS",
+        "Synthetic Observations"
       ]
     }
+
   ],
   "interests": [
     {
@@ -131,7 +148,7 @@
         "Visualization",
         "Parallel Computing",
         "Synthetic Observations",
-        "N-body/Hydrodynamics Simulations",
+        "N-body/Hydrodynamics Simulations"
       ]
     }
 
