@@ -113,13 +113,27 @@
       "name": "Astrophysics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Galaxy Clusters",
+        "Intracluster Medium",
+        "Circumgalactic Medium",
+        "Dark Matter",
+        "Cosmology",
+        "Magnetohydrodynamics",
+        "Cosmic Rays",
+        "X-ray Observations"
+      ]
+    },
+    {
+      "name": "Scientific Computing",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Programming Languages",
+        "Visualization",
+        "Parallel Computing",
+        "Synthetic Observations",
+        "N-body/Hydrodynamics Simulations",
       ]
     }
+
   ]
 }
