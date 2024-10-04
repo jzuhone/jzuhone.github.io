@@ -67,32 +67,6 @@
       ]
     },
     {
-      "name": "NASA / Goddard Space Flight Center",
-      "position": "Postdoctoral Researcher",
-      "startDate": "2011-03",
-      "endDate": "2014-09",
-      "summary": "Research in Astrophysics",
-      "highlights": [
-        "Intracluster Medium", 
-        "Synthetic X-ray Observations", 
-        "N-body/Hydrodynamics Simulations",
-        "Scientific Software Development"
-      ]
-    },
-    {
-      "name": "NASA / Goddard Space Flight Center",
-      "position": "Postdoctoral Researcher",
-      "startDate": "2011-03",
-      "endDate": "2014-09",
-      "summary": "Research in Astrophysics",
-      "highlights": [
-        "Intracluster Medium", 
-        "Synthetic X-ray Observations", 
-        "N-body/Hydrodynamics Simulations",
-        "Scientific Software Development"
-      ]
-    },
-    {
       "name": "Center for Astrophysics | Harvard & Smithsonian",
       "position": "Postdoctoral Researcher",
       "startDate": "2009-02",
@@ -181,6 +155,9 @@
         "C",
         "C++",
         "Fortran",
+        "Cython",
+        "SciPy",
+        "AstroPy",
         "Git",
         "HDF5",
         "MPI",
