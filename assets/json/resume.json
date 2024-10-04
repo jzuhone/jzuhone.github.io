@@ -145,6 +145,18 @@
       ]
     },
     {
+      "name": "Spacecraft Operations",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Planning and Reviewing Observing Schedules",
+        "Anomaly Response",
+        "Thermal Modeling and Predictions",
+        "Technical Documentation Preparation",
+        "Analyzing Telemetry Data",
+        "Analyzing Solar Wind Data"
+      ]
+    },
+    {
       "name": "Scientific Computing",
       "icon": "fa-solid fa-hashtag",
       "keywords": [

@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: This is a list of students and postdocs that I have been pleased to collaborate with recently. 
 nav: true
 nav_order: 6
 
