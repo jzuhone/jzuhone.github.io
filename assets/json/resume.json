@@ -26,17 +26,82 @@
     {
       "name": "Center for Astrophysics | Harvard & Smithsonian",
       "position": "Astrophysicist",
-      "url": "https://jzuhone.github.io/",
       "startDate": "2015-12",
       "endDate": "Present",
-      "summary": "Chandra ACIS Operations Team and Research in Astrophysics",
+      "summary": "Chandra ACIS Operations Team and Research in High-Energy Astrophysics",
       "highlights": [
         "Chandra Operations", 
         "Intracluster Medium", 
         "Circumgalactic Medium", 
+        "N-body/Hydrodynamics Simulations",
         "Lynx Study Office", 
         "Line Emission Mapper Team", 
         "Synthetic X-ray Observations", 
+        "Scientific Software Development"
+      ]
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2014-09",
+      "endDate": "2015-12",
+      "summary": "Research in Astrophysics",
+      "highlights": [
+        "Intracluster Medium", 
+        "Synthetic X-ray Observations", 
+        "N-body/Hydrodynamics Simulations",
+        "Scientific Software Development"
+      ]
+    },
+    {
+      "name": "NASA / Goddard Space Flight Center",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2011-03",
+      "endDate": "2014-09",
+      "summary": "Research in Astrophysics",
+      "highlights": [
+        "Intracluster Medium", 
+        "Synthetic X-ray Observations", 
+        "N-body/Hydrodynamics Simulations",
+        "Scientific Software Development"
+      ]
+    },
+    {
+      "name": "NASA / Goddard Space Flight Center",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2011-03",
+      "endDate": "2014-09",
+      "summary": "Research in Astrophysics",
+      "highlights": [
+        "Intracluster Medium", 
+        "Synthetic X-ray Observations", 
+        "N-body/Hydrodynamics Simulations",
+        "Scientific Software Development"
+      ]
+    },
+    {
+      "name": "NASA / Goddard Space Flight Center",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2011-03",
+      "endDate": "2014-09",
+      "summary": "Research in Astrophysics",
+      "highlights": [
+        "Intracluster Medium", 
+        "Synthetic X-ray Observations", 
+        "N-body/Hydrodynamics Simulations",
+        "Scientific Software Development"
+      ]
+    },
+    {
+      "name": "Center for Astrophysics | Harvard & Smithsonian",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2009-02",
+      "endDate": "2011-03",
+      "summary": "Research in Astrophysics",
+      "highlights": [
+        "Intracluster Medium", 
+        "Synthetic X-ray Observations", 
+        "N-body/Hydrodynamics Simulations",
         "Scientific Software Development"
       ]
     }
