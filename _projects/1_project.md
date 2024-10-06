@@ -1,18 +1,26 @@
 ---
 layout: page
-title: project 1
+title: Cold Fronts in the Hot Plasma of Galaxy Clusters
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The latest generation of X-ray telescopes, including *Chandra* and
+*XMM-Newton*, have revealed the existence of sharp surface brightness
+discontinuities which betray the existence of sharp density jumps in
+the intracluster medium (ICM) Spectral analysis demonstrates that
+these are also jumps in temperature, with the denser side of the front
+having a lower temperature. These features have been dubbed "cold
+fronts" (for reviews see [Markevitch & Vikhlinin 2007](http://adsabs.harvard.edu/abs/2007PhR...443....1M) and ZuHone & Roediger 2016). Simulations
+indicate that cold fronts may form from merging activity, whether by
+ram-pressure stripping or "ram-pressure slingshots" of cool, dense
+gas. Cold fronts should be susceptible to heat conduction, which would
+elminate the sharp temperature gradient on a short timescale, and
+fluid instabilities, such as Kelvin-Helmholtz (K-H), which would
+disrupt their smooth appearance.
 
     ---
     layout: page
