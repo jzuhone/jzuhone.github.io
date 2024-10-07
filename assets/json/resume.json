@@ -149,6 +149,7 @@
         "Cython",
         "SciPy",
         "AstroPy",
+        "Jupyter Notebooks",
         "Git",
         "HDF5",
         "MPI",
@@ -157,7 +158,9 @@
         "macOS",
         "Linux",
         "Windows",
-        "Python Packaging"
+        "Python Packaging",
+        "LaTeX", 
+        "Scientific Documentation"
       ]
     }
 

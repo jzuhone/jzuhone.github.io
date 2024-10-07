@@ -17,16 +17,26 @@ from merging activity, whether by ram-pressure stripping or "ram-pressure slings
 should be susceptible to heat conduction, which would elminate the sharp temperature gradient on a short timescale, and
 fluid instabilities, such as Kelvin-Helmholtz (K-H), which would disrupt their smooth appearance.
 
-However, many cold fronts are observed to be very smooth and sharp, so there must be a mechanism to support the existence of these features. One possible mechanism is magnetic fields. The velocity shear associated with a cold front can amplify the weak cluster magnetic fields to near-equipartition strengths, and stretch the field lines tangential to the front surface (Figure 1b). Due to the small Larmor radii of electrons in the $\mu$G cluster magnetic field, heat conduction is strongly anisotropic, occurring essentially only along the field lines. Therefore, a magnetic field stretched parallel to the front surface would shield the temperature gradient from heat conduction. In {% cite 2011ApJ...743...16Z %} we performed a series of simulations of sloshing cold front formation in a magnetized ICM. We varied the overall magnetic field strength of the cluster and the degree to which it is tangled on small scales. We found that for initial magnetic field energies ~1% of the thermal energy, the field is stretched and amplified to such a degree that most cold fronts can be stabilized against the development of fluid instabilities (Figure 2). Large-radii cold fronts, where the field is weaker, are more susceptible to the development of instabilities.
+However, many cold fronts are observed to be very smooth and sharp, so there must be a mechanism to support the existence of these features. One possible mechanism is magnetic fields. The velocity shear associated with a cold front can amplify the weak cluster magnetic fields to near-equipartition strengths, and stretch the field lines tangential to the front surface (Figure 1, left). Due to the small Larmor radii of electrons in the $$\mu$$G cluster magnetic field, heat conduction is strongly anisotropic, occurring essentially only along the field lines. Therefore, a magnetic field stretched parallel to the front surface would shield the temperature gradient from heat conduction. In {% cite 2011ApJ...743...16Z %} we performed a series of simulations of sloshing cold front formation in a magnetized ICM. We varied the overall magnetic field strength of the cluster and the degree to which it is tangled on small scales. We found that for initial magnetic field energies ~1% of the thermal energy, the field is stretched and amplified to such a degree that most cold fronts can be stabilized against the development of fluid instabilities (Figure 1, right). Large-radii cold fronts, where the field is weaker, are more susceptible to the development of instabilities.
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/temps.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-2 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bfields.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/temps.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
+<div class="caption">
+    Slices through the plasma $$\beta$$ (left) and gas temperature (right) for a suite of simulations with varying initial magnetic field strength, from {% cite 2011ApJ...743...16Z %}. As the initial magnetic field strength is increased, Kelvin-Helmholtz instabilities are increasingly suppressed.
+</div>
+
+However, we found that the ability of magnetic fields to suppress heat conduction across cold fronts in this scenario is limited. In {% cite 2013ApJ...762...69Z %} we re-simulated our magnetized sloshing cold fronts with anisotropic thermal conduction. We found that despite the formation of magnetic field lines draped tangentially to the front surfaces, conduction is not fully suppressed and the temperature jumps can be significantly reduced, to the point where the corresponding surface brightness jumps would not be seen in observations. This is due to the fact that the magnetic field layers are not perfectly aligned with the cold front surfaces, and some heat flux is able to "leak through." This potentially places strong constraints on heat conduction in the bulk of the ICM.
+
+Another candidate for preventing the development of fluid instabilities at cold front surfaces is viscosity. Little is currently known about the Reynolds number of the cluster plasma. Even a modest isotropic ion viscosity is capable of preventing the development of K-H instabilities at sloshing cold fronts, as was shown to a certain extent by {% 2010ApJ...717..908Z %} and in fuller depth by [Roediger et al. 2013](https://ui.adsabs.harvard.edu/abs/2013ApJ...764...60R/abstract).
+
+
+
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/virgo_temp.png" title="example image" class="img-fluid rounded z-depth-1" %}
