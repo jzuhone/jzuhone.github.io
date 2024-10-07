@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cold Fronts in the Hot Plasma of Galaxy Clusters
-description: with background image
+description: constraining plasma physics and explaining observations
 img: assets/img/virgo_temp.png
 importance: 1
 category: research
@@ -12,8 +12,7 @@ The latest generation of X-ray telescopes, including *Chandra* and *XMM-Newton*,
 surface brightness discontinuities which betray the existence of sharp density jumps in the intracluster medium (ICM)
 Spectral analysis demonstrates that these are also jumps in temperature, with the denser side of the front having a
 lower temperature. These features have been dubbed "cold fronts" (for reviews see [Markevitch & Vikhlinin
-2007](http://adsabs.harvard.edu/abs/2007PhR...443....1M) and [ZuHone & Roediger
-2016](https://ui.adsabs.harvard.edu/abs/2016JPlPh..82c5301Z/abstract)). Simulations indicate that cold fronts may form
+2007](http://adsabs.harvard.edu/abs/2007PhR...443....1M) and {% cite 2016JPlPh..82c5301Z %}). Simulations indicate that cold fronts may form
 from merging activity, whether by ram-pressure stripping or "ram-pressure slingshots" of cool, dense gas. Cold fronts
 should be susceptible to heat conduction, which would elminate the sharp temperature gradient on a short timescale, and
 fluid instabilities, such as Kelvin-Helmholtz (K-H), which would disrupt their smooth appearance.

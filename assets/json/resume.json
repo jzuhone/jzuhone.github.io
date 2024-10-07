@@ -145,6 +145,7 @@
         "C",
         "C++",
         "Fortran",
+        "Julia",
         "Cython",
         "SciPy",
         "AstroPy",
@@ -155,7 +156,8 @@
         "Synthetic Observations",
         "macOS",
         "Linux",
-        "Windows"
+        "Windows",
+        "Python Packaging"
       ]
     }
 
