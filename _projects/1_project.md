@@ -2,7 +2,7 @@
 layout: page
 title: Cold Fronts in the Hot Plasma of Galaxy Clusters
 description: with background image
-img: assets/img/virgo_temp1.png
+img: assets/img/virgo_temp.png
 importance: 1
 category: research
 related_publications: true
