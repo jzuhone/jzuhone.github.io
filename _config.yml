@@ -240,7 +240,6 @@ exclude:
   - INSTALL.md
   - _pages/dropdown.md
   - _pages/teaching.md
-  - _pages/projects.md
   - LICENSE
   - lighthouse_results/
   - package.json
