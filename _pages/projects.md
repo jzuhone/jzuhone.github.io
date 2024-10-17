@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: "NOTE\: This page is currently under construction, check back for updates."
+description: NOTE! This page is currently under construction, check back for updates.
 nav: true
 nav_order: 3
 display_categories: [research]
