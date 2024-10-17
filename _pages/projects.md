@@ -5,7 +5,7 @@ permalink: /projects/
 description: NOTE! This page is currently under construction, check back for updates.
 nav: true
 nav_order: 3
-display_categories: [research]
+display_categories: [research, software, operations]
 horizontal: false
 ---
 
