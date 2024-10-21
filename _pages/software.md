@@ -44,7 +44,7 @@ The FLASH Code is adaptive-mesh refinement N-body/hydrodynamics/multiphysics par
 
 ### GAMER
 
-<img src="../assets/img/GAMER.png" alt="GAMER logo" width=300 />
+<img src="../assets/img/gamer.png" alt="GAMER logo" width=300 />
 
 The GAMER Code is adaptive-mesh refinement N-body/hydrodynamics GPU-accelerated parallel code for astrophysics simulations.
 
