@@ -21,10 +21,10 @@ However, many cold fronts are observed to be very smooth and sharp, so there mus
 
 <div id="figure1" class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bfields.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bfields.png" title="magnetic fields" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/temps.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/temps.png" title="temperatures" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
