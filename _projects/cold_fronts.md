@@ -28,7 +28,7 @@ However, many cold fronts are observed to be very smooth and sharp, so there mus
     </div>
 </div>
 <div class="caption">
-    Figure 1: Slices through the ratio of the thermal to magnetic pressures (left) and gas temperature (right) for a suite of simulations with varying initial magnetic field strength, from {% cite 2011ApJ...743...16Z %}. As the initial magnetic field strength is increased, Kelvin-Helmholtz instabilities are increasingly suppressed.
+    Figure 1: Slices through \(\beta\) (ratio of the thermal to magnetic pressures, left) and gas temperature (right) for a suite of simulations with varying initial magnetic field strength, from {% cite 2011ApJ...743...16Z %}. As the initial magnetic field strength is increased, Kelvin-Helmholtz instabilities are increasingly suppressed.
 </div>
 
 However, we found that the ability of magnetic fields to suppress heat conduction across cold fronts in this scenario is limited. In {% cite 2013ApJ...762...69Z %} we re-simulated our magnetized sloshing cold fronts with anisotropic thermal conduction. We found that despite the formation of magnetic field lines draped tangentially to the front surfaces, conduction is not fully suppressed and the temperature jumps can be significantly reduced, to the point where the corresponding surface brightness jumps would not be seen in observations. This is due to the fact that the magnetic field layers are not perfectly aligned with the cold front surfaces, and some heat flux is able to "leak through." This potentially places strong constraints on heat conduction in the bulk of the ICM.
