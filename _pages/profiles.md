@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description: This is a list of students and postdocs that I have been pleased to collaborate with recently. 
 nav: true
-nav_order: 5
+nav_order: 7
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

@@ -4,7 +4,7 @@ title: Chandra/ACIS Thermal Modeling
 description: Keeping ACIS within its limits
 img: assets/img/thermal_model_example.png
 importance: 1
-category: operations
+category: chandra
 related_publications: false
 ---
 

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: research
+permalink: /research/
 description: NOTE! This page is currently under construction, check back for updates.
 nav: true
 nav_order: 3
-display_categories: [research, operations]
+display_categories: [research]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/research.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
