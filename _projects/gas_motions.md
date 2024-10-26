@@ -37,3 +37,24 @@ could be recovered ([Figure 1](#figure1)). These insights are currently being us
     Figure 1: Left: a mock projected velocity map from {% cite 2016ApJ...817..110Z %}, binned to ~1.5 arcminute regions, the approximate angular resolution obtainable with Hitomi for the Coma velocity field. Red squares show the locations of suggested pointings for the *Hitomi* microcalorimeter detector. Right: computed velocity structure function from these pointings, including the effects of statistical and systematic measurement errors. 
 </div>
 
+Cool-core galaxy clusters (such as Perseus, Abell 2029, Centaurus, etc.) are also the sources of interesting gas motions, despite being more relaxed. These are turbulence driven by central active galactic nuclei (AGN), and the "sloshing" gas motions driven by mergers and associated with cold fronts (see the page on [cold fronts](/projects/cold_fronts) for more details). In this case, the cooler, denser gas below the front surface is moving at roughly 30-50% of the local sound speed, which should be detectable with microcalorimeter instruments such as *Hitomi* and *XRISM* if some of those motions are directed along the sight line. 
+
+In {% cite 2016ApJ...821....6Z %} we made predictions for what Doppler shifting and broadening signatures such sloshing motions would make using mock *Hitomi* (then called *Astro-H*) observations of FLASH hydrodynamic simulations of core gas sloshing (notably without AGN feedback included). We explored two simulations, one inviscid, and another with Spitzer viscosity. The latter is unrealistic in the ICM due to the effect of magnetic fields making viscosity anisotropic, but serves as a useful extreme test for the effect of viscosity on line shapes due to velocities.
+
+We found that in the case of sloshing, the line broadening is not changed significantly in the presence of such extreme viscosity (at least on the spatial scales at which *Hitomi* was able to observe given its ~1-arcminute PSF). This is because the origin of the majority of the line broadening is from the bulk sloshing motions themselves and not turbulent motions at smaller scales, which are more effectively damped by viscosity. A mission with higher angular resolution would be capable of measuring velocity differences across the cluster core and thereby constrain them on smaller scales to more effectively probe viscosity. 
+
+Thus, when Perseus was later observed by *Hitomi* ([Hitomi Collaboration et al.
+(2016)](https://ui.adsabs.harvard.edu/abs/2016Natur.535..117H/abstract), [Hitomi Collaboration et al.
+(2018)](https://ui.adsabs.harvard.edu/abs/2018PASJ...70....9H/abstract)), and it was reported that the gas motions in the core were quiescent, this does not necessarily imply that viscosity is strong, as shown in {% cite 2016ApJ...821....6Z %}, it simply means that the drivers of motions are not strong. It is also the case that for the stratified atmospheres of cool-core clusters, projection effects dictate that the length scales at which velocities are being measured strongly depend on the distance from the cluster core (see [Zhuravleva et al. 2012](https://ui.adsabs.harvard.edu/abs/2012MNRAS.422.2712Z/abstract)), such that dispersions in the center must necessarily be measured to be smaller. We explored these effects in more detail after publication of the *Hitomi* measurements in {% cite 2018ApJ...853..180Z %}, showing the effects of varying the line of sight with respect to the sloshing motions and the gradients of velocity across the cluster core that are produced in both inviscid and viscous cases ([Figure 3](#figure3)).
+
+<div id="figure1" class="row">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/compare_mu_novisc.png" title="coma pointing strategy" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/compare_mu_visc.png" title="measured structure function" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: 
+</div>
