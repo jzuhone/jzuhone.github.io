@@ -25,7 +25,6 @@ $$SF(\ell) = \langle{[{\bf v}({\bf r} + {\bf \ell})-{\bf v}({\bf r})]^2}\rangle$
 This quantity (up to constant additive and mulplicative factors) is directly related to the power spectrum via the Fourier transform, and it can be calculated for any arbitrary set of points on the sky on which the velocity is measured. In {% cite 2016ApJ...817..110Z %}, we showed that while *Hitomi* would not be able to constrain the viscous dissipation scale due to its limited angular resolution, by spreading out the velocity measurements over a wide angular scale the injection scale of turbulence 
 could be recovered ([Figure 1](#figure1)). These insights are currently being used in the analysis and interpreation of the recently obtained *XRISM* observations of the Coma Cluster. 
 
-
 <div id="figure1" class="row">
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/big_cross.png" title="coma pointing strategy" class="img-fluid rounded z-depth-1" %}
