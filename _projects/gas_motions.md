@@ -8,6 +8,8 @@ category: research
 related_publications: true
 ---
 
+### Overview
+
 Direct measurements of ICM velocities are limited. The *Hitomi* X-ray Observatory was launched in 2016 and made the
 first direct ICM measurements of Doppler shifting and broadening of emission lines in the Perseus Cluster, using its
 microcalorimeter instrument ([Hitomi Collaboration et al.
@@ -15,6 +17,8 @@ microcalorimeter instrument ([Hitomi Collaboration et al.
 (2018)](https://ui.adsabs.harvard.edu/abs/2018PASJ...70....9H/abstract)), and the follow-up *XRISM* mission has recently
 observed a number of galaxy clusters. I am currently a Guest Scientist with the XRISM team, involved primarily on the
 Perseus and Coma target teams. 
+
+### Mapping Turbulence in the Coma Cluster
 
 The Coma Cluster is a bright and nearby system which shows signs of recent merging. It has a large (~300 kpc) nearly constant-density core region, implying that the gas has little stratification. There is no central active galactic nucleus as there is in other clusters (like Perseus). Coma is therefore an ideal system to study the properties of ICM turbulence.
 
@@ -36,6 +40,8 @@ could be recovered ([Figure 1](#figure1)). These insights are currently being us
 <div class="caption">
     Figure 1: Left: a mock projected velocity map from {% cite 2016ApJ...817..110Z %}, binned to ~1.5 arcminute regions, the approximate angular resolution obtainable with Hitomi for the Coma velocity field. Red squares show the locations of suggested pointings for the *Hitomi* microcalorimeter detector. Right: computed velocity structure function from these pointings, including the effects of statistical and systematic measurement errors. 
 </div>
+
+### Measuring Sloshing Motions in Cool-Core Clusters
 
 Cool-core galaxy clusters (such as Perseus, Abell 2029, Centaurus, etc.) are also the sources of interesting gas motions, despite being more relaxed. These are turbulence driven by central active galactic nuclei (AGN), and the "sloshing" gas motions driven by mergers and associated with cold fronts (see the page on [cold fronts](/projects/cold_fronts) for more details). In this case, the cooler, denser gas below the front surface is moving at roughly 30-50% of the local sound speed, which should be detectable with microcalorimeter instruments such as *Hitomi* and *XRISM* if some of those motions are directed along the sight line. 
 

@@ -8,6 +8,8 @@ category: research
 related_publications: true
 ---
 
+### Overview
+
 The latest generation of X-ray telescopes, including *Chandra* and *XMM-Newton*, have revealed the existence of sharp
 surface brightness discontinuities which betray the existence of sharp density jumps in the intracluster medium (ICM)
 Spectral analysis demonstrates that these are also jumps in temperature, with the denser side of the front having a
@@ -17,7 +19,19 @@ from merging activity, whether by ram-pressure stripping or "ram-pressure slings
 should be susceptible to heat conduction, which would elminate the sharp temperature gradient on a short timescale, and
 fluid instabilities, such as Kelvin-Helmholtz (K-H), which would disrupt their smooth appearance.
 
-However, many cold fronts are observed to be very smooth and sharp, so there must be a mechanism to support the existence of these features. One possible mechanism is magnetic fields. The velocity shear associated with a cold front can amplify the weak cluster magnetic fields to near-equipartition strengths, and stretch the field lines tangential to the front surface ([Figure 1](#figure1), left). Due to the small Larmor radii of electrons in the $$\mu$$G cluster magnetic field, heat conduction is strongly anisotropic, occurring essentially only along the field lines. Therefore, a magnetic field stretched parallel to the front surface would shield the temperature gradient from heat conduction. In {% cite 2011ApJ...743...16Z %} we performed a series of simulations of sloshing cold front formation in a magnetized ICM. We varied the overall magnetic field strength of the cluster and the degree to which it is tangled on small scales. We found that for initial magnetic field energies ~1% of the thermal energy, the field is stretched and amplified to such a degree that most cold fronts can be stabilized against the development of fluid instabilities ([Figure 1](#figure1), right). Large-radii cold fronts, where the field is weaker, are more susceptible to the development of instabilities.
+### The Effects of Magnetic Fields on Cold Fronts
+
+However, many cold fronts are observed to be very smooth and sharp, so there must be a mechanism to support the
+existence of these features. One possible mechanism is magnetic fields. The velocity shear associated with a cold front
+can amplify the weak cluster magnetic fields to near-equipartition strengths, and stretch the field lines tangential to
+the front surface ([Figure 1](#figure1), left). Due to the small Larmor radii of electrons in the $$\mu$$G cluster
+magnetic field, heat conduction is strongly anisotropic, occurring essentially only along the field lines. Therefore, a
+magnetic field stretched parallel to the front surface would shield the temperature gradient from heat conduction. In {%
+cite 2011ApJ...743...16Z %} we performed a series of simulations of sloshing cold front formation in a magnetized ICM.
+We varied the overall magnetic field strength of the cluster and the degree to which it is tangled on small scales. We
+found that for initial magnetic field energies ~1% of the thermal energy, the field is stretched and amplified to such a
+degree that most cold fronts can be stabilized against the development of fluid instabilities ([Figure 1](#figure1),
+right). Large-radii cold fronts, where the field is weaker, are more susceptible to the development of instabilities.
 
 <div id="figure1" class="row">
     <div class="col-sm mt-2 mt-md-0">

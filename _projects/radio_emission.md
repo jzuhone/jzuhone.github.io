@@ -8,6 +8,8 @@ category: research
 related_publications: true
 ---
 
+### Overview
+
 A number of galaxy clusters contain diffuse, steep-spectrum radio emission. The most obvious of these are large,
 extended sources (R ~ 1 Mpc) that are often found in merging clusters, known as "radio halos". There is a second class
 of these features, found in the cool cores of more relaxed galaxy clusters (R ~ 100-200 kpc), known as "radio
@@ -28,6 +30,8 @@ some process or continuously injected *in situ*.
 Figure 1: Left: X-ray image of RXJ1720.1+2638 with radio contours overlaid. Right: Mock X-ray image with 
     mock radio contours overlaid from our reacceleration simulation in {% cite 2013ApJ...762...78Z %}.
 </div>
+
+### Reacceleration Models for Mini-Halos
 
 CRe with energies $$\gamma \sim 10^2$$ may build up in the cluster volume due to acceleration by AGN and shocks and
 production via hadronic processes. These electrons may then be reaccelerated by MHD turbulence driven by cluster
@@ -60,6 +64,8 @@ minihalo emission is bounded by the sloshing cold fronts, exhibiting very sharp 
 Secondly, the minihalo emission is steep-spectrum, due to the trade-off between reacceleration and radiative losses on
 the CRe at high energies ([Figure 2, left](#figure2)). Also, the minihalo is produced on a very short timescale (< 1 Gyr) and decays
 afterward ([Figure 2, right](#figure2)). This is in line with the fact that not all cool-core clusters possess minihalos.  
+
+### Hadronic Models for Mini-Halos
 
 In a subsequent work {% cite 2015ApJ...801..146Z %}, we studied the interplay of sloshing and the injection of relativistic CRe via hadronic interactions as an alternative hypothesis for the existence of radio mini-halos. In this scenario, the confinement of the radio emission to the volume bounded by the cold fronts is explained by the amplification of the magnetic field below the cold fronts ([Keshet & Loeb 2010](https://ui.adsabs.harvard.edu/abs/2010ApJ...722..737K)). This rapid field amplification is also held in this view to be responsible for the steepening of the CRe and radio spectra seen in minihalo (and radio halo) sources ([Keshet 2010](https://ui.adsabs.harvard.edu/abs/2010arXiv1011.0729K/abstract)).
 
