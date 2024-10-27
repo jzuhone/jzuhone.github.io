@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gas Motions in the Intracluster Medium
-description: Predicting and Explaining Observations
+description: predicting and explaining Observations
 img: assets/img/big_cross.png
 importance: 3
 category: research
