@@ -34,5 +34,5 @@ The third package I have developed is [ACISpy](https://cxc.cfa.harvard.edu/acis/
 
 ### Thermal-related Memos I have written
 
-* [Deciphering the Causes of the Anomalous Increase in Belt ECS Cold Time Between Epochs 85 and 86](../assets/pdf/cold_time_anomaly.pdf)
-* [Raising the 1DEAMZT Planning, Yellow, and Red Limits](../assets/pdf/dea_limit.pdf)
+* [Deciphering the Causes of the Anomalous Increase in Belt ECS Cold Time Between Epochs 85 and 86](../../assets/pdf/cold_time_anomaly.pdf)
+* [Raising the 1DEAMZT Planning, Yellow, and Red Limits](../../assets/pdf/dea_limit.pdf)
