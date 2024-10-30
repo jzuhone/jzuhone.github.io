@@ -32,7 +32,7 @@ The third package I have developed is [ACISpy](https://cxc.cfa.harvard.edu/acis/
 * [Current ACIS Load Real-Time](https://cxc.cfa.harvard.edu/acis/current_load_page/): A real-time page showing the current place in the observing schedule and current thermal models compared to real-time thermal-related telemetry.
 * [ACIS FP Temperature and 1CRAT at Every Perigee](https://cxc.cfa.harvard.edu/acis/cr_fp_plots/index.html): We track the ACIS Focal Plane and Cold Radiator temperatures at every perigee, since they typically reach their maxima for a given week at these times, for health and safety reasons. 
 
-### Thermal-related Memos I have written
+### Thermal-related memos I have written
 
 * [Deciphering the Causes of the Anomalous Increase in Belt ECS Cold Time Between Epochs 85 and 86](../../assets/pdf/cold_time_anomaly.pdf)
 * [Raising the 1DEAMZT Planning, Yellow, and Red Limits](../../assets/pdf/dea_limit.pdf)
