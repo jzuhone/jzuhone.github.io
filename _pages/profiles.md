@@ -18,6 +18,10 @@ profiles:
     content: paola_dominguez_fernandez.md
     image_circular: false # crops the image to make it circular
   - align: right
+    image: emily_silich.jpg
+    content: emily_silich.md
+    image_circular: false # crops the image to make it circular
+  - align: right
     image: wonki_lee.png
     content: wonki_lee.md
     image_circular: false # crops the image to make it circular
