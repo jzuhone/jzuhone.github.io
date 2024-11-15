@@ -31,7 +31,16 @@ This value is sensitive both to X-rays and to particles; because of the latter i
 
 ### ACIS Storm Pages
 
-<div class="row">
+Various diagnostics of the solar wind environment are used in Chandra operations. These include:
+
+* "Soft" protons measured by the [ACE](https://www.swpc.noaa.gov/products/ace-real-time-solar-wind) satellite; the ACE "P3" channel is the one that records the radiation that can cause significant damage to ACIS
+* "Hard" protons measured by the [GOES](https://www.swpc.noaa.gov/products/goes-proton-flux) satellites
+* The HRC GOES Proxy, which is a linear combination of GOES proton channels
+* The ACIS txings rate, which appears to be related to the hard protons measured by GOES 
+
+For a number of solar storms, I have cataloged and plotted the behavior of these various diagnostics over time for further analysis; these plots are hosted at the [ACIS Storm Pages](https://cxc.cfa.harvard.edu/acis/storms/). An example of such plots for a particular storm is shown in [Figure 1](#figure1) below.
+
+<div id="figure1" class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/rad_vs_time.png" title="various solar radiation diagnostics vs. time" class="img-fluid rounded z-depth-1" %}
     </div>
