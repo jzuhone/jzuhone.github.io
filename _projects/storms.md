@@ -16,7 +16,18 @@ increase charge transfer inefficiency (CTI), degrading the spectral resolution o
 is sometimes necessary to safe ACIS (shutting it down and moving it out of the focal plane) to prevent this radiation
 damage. 
 
-Shutdowns can be manually executed if the *Chandra* project judges the radiation environment to be too dangerous. There is also a mechanism for an autonomous shutdown. Earlier in the mission, 
+Shutdowns can be manually executed if the *Chandra* project judges the radiation environment to be too dangerous. There
+is also a mechanism for an autonomous shutdown. Earlier in the mission, Chandra used the Electron Proton Helium
+INstrument (EPHIN) on board to detect significant radiation levels and trigger autonomous instrument safing. EPHIN became
+inoperable in 2013; at this point the High Resolution Camera (HRC) anti-coincidence shield rates were used to detect
+solar storms. Beginning in 2020, HRC operations became reduced due to difficulties running the instrument at high
+temperatures, so the shield rate could no longer be used as an "always-on" radiation monitor. 
+
+The current radiation monitor aboard Chandra is the ACIS threshold crossings rate, or "txings" rate. The ACIS flight
+computer and software detects and recognizes X-ray events during the length of an observation. The computer examines
+each CCD frame to find pixels with detections above a pre-determined threshold value. Not all such events are X-rays;
+this is determined by further processing. However, the total txings rate is calculated and telemetered to the ground.
+This value is sensitive both to X-rays and to particles; because of the latter it can be used as a radiation monitor to detect solar storms and trigger autonomous safing of the science instruments.
 
 ### ACIS Storm Pages
 
@@ -26,6 +37,7 @@ Shutdowns can be manually executed if the *Chandra* project judges the radiation
     </div>
 </div>
 <div class="caption">
+Figure 1: Example of time-series plots of various radiation diagnostics during a solar storm from the [ACIS Storm Pages](https://cxc.cfa.harvard.edu/acis/storms/). From top to bottom, the panels show the ACE P3 flux, the ACIS threshold crossings rate, and the HRC Proxy. The pink shaded region marks the time the instruments were safed; the purple shaded regions mark normal radiation zone passages for each orbit of Chandra around the earth.
 </div>
 
 ### Storm-related memos I have written
