@@ -3,7 +3,7 @@ layout: profiles
 permalink: /people/
 title: people
 description: This is a list of students and postdocs that I have been pleased to collaborate with recently. 
-nav: false
+nav: true
 nav_order: 7
 
 profiles:
@@ -17,4 +17,9 @@ profiles:
     image: paola_dom.jpg
     content: paola_dominguez_fernandez.md
     image_circular: false # crops the image to make it circular
+  - align: right
+    image: wonki_lee.png
+    content: wonki_lee.md
+    image_circular: false # crops the image to make it circular
+
 ---
