@@ -46,7 +46,7 @@ For a number of solar storms, I have cataloged and plotted the behavior of these
     </div>
 </div>
 <div class="caption">
-Figure 1: Example of time-series plots of various radiation diagnostics during a solar storm from the [ACIS Storm Pages](https://cxc.cfa.harvard.edu/acis/storms/). From top to bottom, the panels show the ACE P3 flux, the ACIS threshold crossings rate, and the HRC Proxy. The pink shaded region marks the time the instruments were safed; the purple shaded regions mark normal radiation zone passages for each orbit of Chandra around the earth.
+Figure 1: Example of time-series plots of various radiation diagnostics during a solar storm. From top to bottom, the panels show the ACE P3 flux, the ACIS threshold crossings rate, and the HRC Proxy. The pink shaded region marks the time the instruments were safed; the purple shaded regions mark normal radiation zone passages for each orbit of Chandra around the earth.
 </div>
 
 ### Storm-related memos I have written
