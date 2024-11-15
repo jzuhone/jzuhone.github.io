@@ -25,5 +25,12 @@ profiles:
     image: wonki_lee.png
     content: wonki_lee.md
     image_circular: false # crops the image to make it circular
-
+  - align: right
+    image: mila.jpg
+    content: urmila_chadayammuri.md
+    image_circular: false # crops the image to make it circular
+  - align: right
+    image: VB2.png
+    content: veronica_biffi.md
+    image_circular: false # crops the image to make it circular
 ---
