@@ -1,6 +1,6 @@
 ### Emily Silich
 
-Emily is currently a predoctoral researcher at the Smithsonian Astrophysical Observatory, and a graduate student at the California Institute of Technology. She studies merging galaxy clusters using multi-wavelength observations and the circumgalactic medium using cosmological simulations. 
+Emily is currently a graduate student at the California Institute of Technology, and was a predoctoral researcher at the Smithsonian Astrophysical Observatory in 2024. She studies merging galaxy clusters using multi-wavelength observations and the circumgalactic medium using cosmological simulations. 
 
 * [Website](https://emsilich.github.io)
 * [ADS](https://ui.adsabs.harvard.edu/search/q=%20author%3A%22silich%2C%20e%22&sort=date%20desc%2C%20bibcode%20desc&p_=0)
