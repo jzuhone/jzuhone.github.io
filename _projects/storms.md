@@ -68,9 +68,19 @@ To produce this model, we have trained a dense neural network with [PyTorch](htt
     </div>
 </div>
 <div class="caption">
-    Figure 2: 
+    Figure 2: Left: txings rates and proxy predictions from late 2022 to early 2025. The dashed black line shows the limit for triggering a spacecraft safing action. Right: Scatter plot of the true txings rate vs. the predicted rate from the proxy, where the dashed black line indicates equality.
 </div>
 
+Finally, [Figure 3](#figure3) shows the txings rates during a recent solar storm and the model prediction, which correctly predicts the rise above the limit. 
+
+<div id="figure3" class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/txings_proxy_2024_301.png" title="txings-triggered shutdown" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Figure 3: The txings rates during a solar storm (orange points) and the proxy model prediction for the same period (blue curve). The onboard algorithm requires several consecutive increasing samples above the limit (blue horizonatal line) before triggering the shutdown, which occurred at the time marked by the red vertical line. The model and the data before the shutdown are in good agreement, and the model shows that the rates would have remained high for hours after the shutdown.
+</div>
 
 ### Storm-related memos I have written
 
