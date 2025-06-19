@@ -55,7 +55,22 @@ As mentioned above, the ACIS txings rates are currently the only solar radiation
 
 Motivated by this, in collaboration with my colleagues [John Soltis](https://johnsoltis.github.io) (Johns Hopkins University) and [Michelle Ntampaka](https://www.stsci.edu/~mntampaka/) (Space Telescope Science Institute), we have developed an early version of a "txings proxy" to predict the value of the txings rates during solar storms from the GOES proton data which is continuously updated in real-time. Since we only make three ~1-hour contacts with Chandra per day, and do not have real-time knowledge of the txings rates outside of these times, such a predictive proxy would be useful for two reasons: first, we can use a spike in the predicted rates to prepare for the possibility that we will come up on the next contact with the spacecraft with the likelihood that it has safed itself, and second we can use it to help decide when rates are low enough that it is safe to return to science. The txings rates are also only recorded when ACIS is taking data, so the proxy can also serve as an indicator of where the rates would be in between ACIS observations.
 
-To produce this model, we have trained a dense neural network with [PyTorch](https://pytorch.org) on GOES proton and txings proxy data from 2022-2025. We employ cross-validation on this data with 10 different folds which are then split into training, validation, and test data. The main measure of the model's success is how often it correctly predicts that the txings rate will exceed the limit required to trigger a spacecraft safing action. We found that our model has an ~89% true positive rate for exceeding the limit and a ~8% false positive rate, which is more than adequate accuracy for use in real-time operations.
+To produce this model, we have trained a dense neural network with [PyTorch](https://pytorch.org) on GOES proton and txings proxy data from 2022-2025. We employ cross-validation on this data with 10 different folds which are then split into training, validation, and test data. The main measure of the model's success is how often it correctly predicts that the txings rate will exceed the limit required to trigger a spacecraft safing action. We found that our model has an ~89% true positive rate for exceeding the limit and an ~8% false positive rate, which is more than adequate accuracy for use in real-time operations.
+
+[Figure 2](#figure2) (left panel) shows the data and model predictions for the entire range of data involved in the training, validation, and testing. The right panel of [Figure 2](#figure2) shows the correlation between the true txings rate and the predicted rate for the test set. 
+
+<div id="figure2" class="row">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/data_model_time.png" title="data vs. time" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/pred_vs_true.png" title="data vs. prediction" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 2: 
+</div>
+
 
 ### Storm-related memos I have written
 
