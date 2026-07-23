@@ -29,26 +29,6 @@ each CCD frame to find pixels with detections above a pre-determined threshold v
 this is determined by further processing. However, the total txings rate is calculated and telemetered to the ground.
 This value is sensitive both to X-rays and to particles; because of the latter it can be used as a radiation monitor to detect solar storms and trigger autonomous safing of the science instruments.
 
-### ACIS Storm Pages
-
-Various diagnostics of the solar wind environment are used in Chandra operations. These include:
-
-* "Soft" protons measured by the [ACE](https://www.swpc.noaa.gov/products/ace-real-time-solar-wind) satellite; the ACE "P3" channel is the one that records the radiation that can cause significant damage to ACIS
-* "Hard" protons measured by the [GOES](https://www.swpc.noaa.gov/products/goes-proton-flux) satellites
-* The HRC GOES Proxy, which is a linear combination of GOES proton channels
-* The ACIS txings rate, which appears to be related to the hard protons measured by GOES 
-
-For a number of solar storms, I have cataloged and plotted the behavior of these various diagnostics over time for further analysis; these plots are hosted at the [ACIS Storm Pages](https://cxc.cfa.harvard.edu/acis/storms/). An example of such plots for a particular storm is shown in [Figure 1](#figure1) below.
-
-<div id="figure1" class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rad_vs_time.png" title="various solar radiation diagnostics vs. time" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-Figure 1: Example of time-series plots of various radiation diagnostics during a solar storm. From top to bottom, the panels show the ACE P3 flux, the ACIS threshold crossings rate, and the HRC Proxy. The pink shaded region marks the time the instruments were safed; the purple shaded regions mark normal radiation zone passages for each orbit of Chandra around the earth.
-</div>
-
 ### ACIS txings Proxy
 
 As mentioned above, the ACIS txings rates are currently the only solar radiation monitor on the spacecraft, and sharp rises in these rates correlate well with rises in the GOES proton data.

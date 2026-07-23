@@ -2,7 +2,6 @@
 layout: page
 title: chandra
 permalink: /chandra/
-description: NOTE! This page is currently under construction, check back for updates.
 nav: true
 nav_order: 4
 display_categories: [chandra]
