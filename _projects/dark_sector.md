@@ -14,7 +14,8 @@ The mass budget of clusters is dominated by dark matter, which outweighs the bar
 factor of roughly five to one. This makes clusters powerful laboratories for studying the "dark sector": not only 
 the detailed physical properties of dark matter itself, but even the question of whether the phenomena attributed 
 to dark matter require a new particle species at all, as opposed to a modification of gravity. My work in this 
-area has approached the problem from three different angles: using the dynamics of colliding clusters to probe 
+area has approached the problem from several different angles: using multi-probe observations of merging clusters
+to directly detect the separation of dark matter and gas, using the dynamics of colliding clusters to probe 
 the collisionless nature of dark matter, using the internal structure of merging clusters to constrain dark matter
 self-interactions, and using the detailed mass profiles of relaxed clusters to test an alternative, purely 
 gravitational explanation for "dark matter" phenomenology.
@@ -36,7 +37,8 @@ the ring forming from the radially expanding, "splashback" of dark matter partic
     </div>
 </div>
 <div class="caption">
-    Figure 1: The ringlike dark matter substructure reconstructed from weak- and strong-lensing observations of Cl 0024+17 by Jee et al. (2007).
+    Figure 1: The ringlike dark matter substructure reconstructed from weak- and strong-lensing observations of Cl 0024+17 by Jee et al. (2007). 
+    Reproduced from {% cite 2009ApJ...696..694Z %}.
 </div>
 
 In {% cite 2009ApJ...696..694Z %}, my collaborators and I tested this scenario directly with N-body simulations of
@@ -52,6 +54,41 @@ collisionless dark matter picture. However, a more likely explanation is that th
 of the lensing analysis of [Jee et al. (2007)](https://ui.adsabs.harvard.edu/abs/2007ApJ...661..728J/abstract), as
 later lensing studies of the same system did not find it (see, e.g. [Umetsu et al. 2010](https://ui.adsabs.harvard.edu/abs/2010ApJ...714.1470U/abstract))
 
+### Discovering Gas-Dark Matter Decoupling with Multi-Probe Merger Modeling
+
+Gravitational lensing is not the only way to trace the dark matter distribution in a merging cluster: the velocities
+of the cluster's member galaxies also trace the motion of the (effectively collisionless) dark matter, while the
+kinematic Sunyaev-Zel'dovich (kSZ) effect, a Doppler shift in the cosmic microwave background imprinted by the
+bulk motion of free electrons along the line of sight, traces the motion of the weakly collisional intracluster gas. 
+Because individual merger observables (lensing, X-ray, SZ, spectroscopy) are each sensitive to different, partially
+degenerate combinations of a merger's parameters (mass ratio, impact parameter, merger phase, viewing angle), robustly
+reconstructing the true 3D geometry of a merger requires combining several of these probes at once and comparing them
+against realistic simulations, rather than relying on any single method in isolation.
+
+In {% cite 2024ApJ...968...74S %}, my collaborators and I introduced ICM-SHOX (Improved Constraints on Mergers with
+SZ, Hydrodynamical simulations, Optical, and X-ray), a pipeline that jointly fits multiple observational probes of a
+merging cluster to a large library of mock observables generated from hydrodynamic merger simulations spanning a wide
+range of initial conditions. We applied this pipeline to the merging cluster MACS J0018.5+1626, constraining its
+merger phase to within roughly 0-60 Myr after pericentric passage, a viewing angle inclined by about 27-40 degrees
+from the merger axis, an impact parameter of less than about 250 kpc, a mass ratio of roughly 1.5-3, and an initial
+relative velocity (at 3 Mpc separation) of about 1700-3000 km/s. In the process, we discovered a decoupling in
+velocity space between the dark matter, traced by the member galaxy redshifts, and the gas, traced by the kSZ signal,
+in this system. Our simulations show that this decoupling arises naturally from the different collisional properties
+of the two components at specific combinations of merger epoch, geometry, and viewing angle, providing a direct,
+kinematic (rather than purely positional) demonstration of the separation between the dark and baryonic matter
+components of a cluster during a merger.
+
+<div id="figure2" class="row">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/icm_shox1.jpg" title="ICM-SHOX simulations" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 2: Evolution of mock observables as a function of epoch with indicators for the pass/fail status of each 
+    mock observable to the corresponding matching criterion. The simulations and epochs that "pass" reproduce a 
+    dipole offset between the galaxy and hot gas velocities. Reproduced from {% cite 2024ApJ...968...74S %}.
+</div>
+
 ### Testing Self-Interacting Dark Matter with Sloshing Cold Fronts
 
 A more direct way to probe non-standard dark matter physics is to ask whether dark matter can interact with itself
@@ -61,13 +98,14 @@ display "sloshing" cold fronts (see my page on [cold fronts](/projects/cold_fron
 spiral-shaped discontinuities in the X-ray-emitting gas that form because the collisionless dark matter and 
 collisional gas respond differently to the gravitational perturbation of an infalling subcluster.
 
-<div id="figure2" class="row">
+<div id="figure3" class="row">
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/sloshing_sidm.png" title="sloshing in SIDM" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 2: The evolution of cold fronts in a sloshing cluster core, for different values of the DM self-interacting cross section.
+    Figure 3: The evolution of cold fronts in a sloshing cluster core, for different values of the DM self-interacting cross section.
+    Reproduced from {% cite 2019ApJ...882..119Z %}.
 </div>
 
 In {% cite 2019ApJ...882..119Z %}, my collaborators and I used combined N-body/hydrodynamic simulations to ask how
@@ -75,7 +113,7 @@ this picture changes if the dark matter itself has a nonzero self-interaction cr
 increasing the cross section flattens the dark matter density profile into a core, which produces a modest adiabatic
 expansion and cooling of the gas near the cluster center. In merging clusters, cold fronts still form via the same
 basic mechanism as in the collisionless case, but the flattened central potential allows the sloshing gas to expand
-to somewhat larger radii early in its evolution (see [Figure 2](#figure2)). More strikingly, as the infalling subcluster's dark matter halo
+to somewhat larger radii early in its evolution (see [Figure 3](#figure3)). More strikingly, as the infalling subcluster's dark matter halo
 passes through the core, self-interactions strip away its dark matter mass, weakening its gravitational influence on
 the core gas; the resulting sloshing motions are slower than in the collisionless case, which suppresses the growth
 of Kelvin-Helmholtz instabilities and the associated turbulent mixing and entropy generation at the cold fronts. For
