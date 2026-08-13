@@ -1,3 +1,8 @@
+---
+name: al-folio-bootstrap
+description: Use when a user asks to create, configure, or personalize a new al-folio v1.x website.
+---
+
 # al-folio Bootstrap
 
 Use this skill when a user asks an agent to create, configure, or personalize a new al-folio v1.x website.
